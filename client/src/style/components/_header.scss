@@ -1,0 +1,18 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  .header-menu {
+    display: flex;
+    .header-menu-item {
+      cursor: pointer;
+      height: 50px;
+      display: flex;
+      padding: 0 10px;
+      align-items: center;
+      &:first-of-type {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}

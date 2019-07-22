@@ -1,0 +1,71 @@
+// @import "./components/test.scss";
+@import './variables';
+@import './mixin';
+@import './custom';
+
+@import './components/header';
+@import './components/tabs';
+@import './components/_modal';
+
+//default styles
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  min-width: 120px;
+  display: inline-block;
+}
+
+input {
+  margin: 0 0 20px;
+  padding: 8px 12px 10px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 200px;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  background: transparent;
+  border-radius: 4px;
+  transition: 0.1s all ease-in-out;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.2rem;
+}
+
+.app {
+  background-color: $shark;
+  color: white;
+  height: 100%;
+  width: 100vw;
+  min-height: 500px;
+  min-width: 350px;
+  padding: 20px;
+}
